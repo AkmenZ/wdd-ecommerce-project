@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "sass.css",
+	"sources": [
+		"SASS/sass.scss"
+	],
+	"sourcesContent": [
+		"$h1-color:#4e32a8;\r\n\r\nh1{\r\n    color:$h1-color;\r\n}"
+	],
+	"names": [],
+	"mappings": ";AAEA,AAAA,EAAE,CAAA;EACE,KAAK,EAHC,OAAO;CAIhB"
+}

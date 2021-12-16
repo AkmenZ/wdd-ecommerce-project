@@ -1,0 +1,151 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    color: black;
+    font-family: 'Allerta Stencil', sans-serif;
+}
+
+.navbar-brand:hover{
+    color: black;
+}
+
+
+.nav-link {
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    text-transform: uppercase;
+}
+
+.nav-link:hover{
+    color: #A80000;
+}
+
+.main {
+    padding-top: 100px;
+    padding-bottom: 200px;
+    background: url(images/basketball_sunset.jpg)no-repeat;
+    background-size: cover;
+    height: auto;
+    background-position: 50% 50%;
+    width: 100%;
+    background-attachment: fixed;
+}
+
+.moto {
+    font-size: 6rem;
+    font-weight: 800;
+    color: white;
+}
+
+.btn1 {
+    height: 50px;
+    width: 40%;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+    font-weight: 500;
+    border-radius: 60px;
+}
+
+.footer {
+  position:static;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  line-height: 40px;
+  background-color: white;
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: rgba(168,0,0,1);
+  border-width: 3px;
+}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(168,0,0,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.badge-light {
+    background-color: #A80000!important;
+}
+
+
+.slick-slide {
+    margin: 0px 20px;
+}
+
+.slick-slide img {
+    width: 100%;
+}
+
+.slick-slider
+{
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+}
+
+.slick-list
+{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.slick-track
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+}
+.slick-slide
+{
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+.slick-slide img
+{
+    display: block;
+}
+
+.slick-initialized .slick-slide
+{
+    display: block;
+}
+
+.copy{
+    padding-top: 250px;
+}
+
+#img-container{
+    position:relative;
+    display:inline-block;
+}
+
+#shoeBox:hover .picture{
+    opacity:0.7;
+}
+
+.blink{
+        animation: blinker 0.8s linear infinite;
+        color: #A80000;
+        font-size: 30px;
+        font-weight: bold;
+        font-family: sans-serif;
+      }
+@keyframes blinker {
+        50% {
+          opacity: 0;
+        }
+

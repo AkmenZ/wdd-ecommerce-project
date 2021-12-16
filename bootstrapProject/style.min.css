@@ -1,0 +1,7 @@
+.navbar-brand{font-size:2rem;color:#000;font-family:'Allerta Stencil',sans-serif}
+.navbar-brand:hover{color:#000}
+.nav-link{margin-right:10px;margin-left:10px;color:#000;text-transform:uppercase}
+.nav-link:hover{color:#a80000}
+.main{background:url(images/basketball_sunset.jpg) no-repeat;background-size:cover;height:100vh;background-position:50% 50%;width:100%}
+.moto{font-size:6rem;font-weight:800;color:#fff}
+.btn1{height:50px;width:40%;border:none;outline:0;background-color:#000;color:#fff;font-weight:500;border-radius:60px}
